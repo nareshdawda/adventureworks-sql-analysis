@@ -3,13 +3,13 @@
    =============================================================================
    Author   : Naresh
    Dialect  : SQLite
-   Dataset  : AdventureWorks, supplied with a data dictionary documenting the
-              full schema (71 tables). Only the tables below are used.
+   Dataset  : AdventureWorks
 
    Tables used
-     product, productReview, productModelProductDescriptionCulture,
-     productDescription, productCategory, productSubcategory,
-     salesOrderDetail, salesOrderHeader, salesPerson, currencyRate
+     countryregioncurrency, currencyrate, product, productcategory, 
+	 productdescription, productmodelproductdescriptionculture, 
+     productreview, productsubcategory, salesorderdetail, salesorderheader, 
+     salesperson and salesterritory.
 
    Business questions
      1. Which products are rated highest, and is there enough review data to
@@ -19,11 +19,6 @@
      4. Does the answer change when we respect the currency each order was
         paid in?
         
-	Notes
-     - The 2014 filters cover only the months present in the data.
-     - Per the project brief, order amounts are in each order's local currency
-       and are not converted to USD, so the totals in Exercises 5 to 7 mix
-       currencies. Exercise 9 groups by currency to compare like for like.
 	========================================================================== */
 
 
